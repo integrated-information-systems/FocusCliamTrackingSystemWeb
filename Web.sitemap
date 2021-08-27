@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home" roles="*"  description="Sitemap example's home page">
+        <siteMapNode url="" title="Users"  roles="admin"     description="Users" >
+            <siteMapNode url="~/Account/AddUser.aspx" title="Add User"  roles="admin"     description="Add User" />
+            <siteMapNode url="~/Account/ManageUsers.aspx"  title="Manage Users" description="Manager Users" />
+        </siteMapNode>
+        <siteMapNode url="" title="Roles"  roles="admin"     description="Roles" >
+            <siteMapNode url="~/Account/ManageRoles.aspx" title="Add Roles"  roles="admin"     description="Add Roles" />
+            <siteMapNode url="~/Account/AssignRoles.aspx"  title="Assign Roles" description="Assign Roles" />
+        </siteMapNode>
+      <!--<siteMapNode url="~/Business/TransportMode.aspx" title="Transport Mode"  roles="admin,Focus"     description="Transport Mode" >
+      </siteMapNode>-->
+      <siteMapNode url="~/Business/SupplierMaster.aspx" title="Supplier Master"  roles="admin,Focus"     description="Supplier Master" >
+      </siteMapNode>
+        <siteMapNode url="~/Business/Claimform.aspx" title="Claim Form"  roles="admin"     description="Claim Form" >            
+        </siteMapNode>
+        <siteMapNode url="~/Business/ClaimList.aspx" title="Claim Listing"  roles="admin"     description="Claim Listing" >
+        </siteMapNode>        
+       <siteMapNode url="~/Business/DOListing.aspx" title="DO Listing"  roles="admin,Focus"     description="DO Listing" >
+        </siteMapNode>
+      <!--<siteMapNode url="~/Business/MailHistory.aspx" title="Mail History"  roles="admin, Focus, FocusLimited"     description="Mail History" >
+        </siteMapNode>-->
+        <!--<siteMapNode url="~/Business/ManufacturerInfo.aspx" title="Manufacturer"  roles="admin,Focus"     description="Manufacturer" >
+        </siteMapNode>
+        <siteMapNode url="~/Business/Manufacturer.aspx" title="Claim Info"  roles="admin,Focus"     description="Claim Info" >
+        </siteMapNode>-->       
+        <siteMapNode url="" title="Reports"  roles="admin"     description="Reports" >
+            <siteMapNode url="~/Reports/OpenClaimDues.aspx" title="Open Claim by Due days"  roles="admin"     description="Open Claim by Due days" />
+            <siteMapNode url="~/Reports/ClaimByStatus.aspx" title="Claim list by status"  roles="admin"     description="Claim list by status" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
